@@ -2,7 +2,7 @@ package com.ferroblesh.javatesting.util;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 
 public class StringUtilTest {
@@ -35,4 +35,31 @@ public class StringUtilTest {
 
     }
 
+    @Test
+    public void is_not_empty() {
+
+        assertFalse(StringUtil.isEmpty("NotEmptyString"));
+
+    }
+
+    @Test
+    public void is_empty() {
+
+        assertTrue(StringUtil.isEmpty(""));
+
+    }
+
+    @Test
+    public void null_is_empty() {
+
+        assertTrue(StringUtil.isEmpty(null));
+
+    }
+
+    @Test
+    public void string_with_spaces_is_empty() {
+
+        assertTrue(StringUtil.isEmpty(" "));
+
+    }
 }
