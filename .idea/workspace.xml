@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a44d885-0b9e-4b1f-b887-49799e25e24c" name="Default Changelist" comment="" />
+    <list default="true" id="7a44d885-0b9e-4b1f-b887-49799e25e24c" name="Default Changelist" comment="Integration test using in memory database">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/data/MovieRepositoryJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/movies/data/MovieRepositoryIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/model/Movie.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,26 +24,110 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/util/StringUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="285">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/util/StringUtilTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/util/StringUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="165">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/data/MovieRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/data/MovieRepositoryJdbc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="34" column="80" lean-forward="true" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/movies/data/MovieRepositoryIntegrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="61" column="33" lean-forward="true" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/model/Movie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1198#1199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/sql-scripts/test-data.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/service/MovieService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/movies/service/MovieServiceShould.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="33" column="62" selection-start-line="27" selection-start-column="24" selection-end-line="33" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/discounts/PriceCalculatorShould.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,25 +140,58 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/util/StringUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/util/PasswordUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/util/PasswordUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/util/PasswordUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/util/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/player/Dice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/player/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/payment/PaymentResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/payment/PaymentRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/payment/PaymentGateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/payment/PaymentProcessor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/payment/PaymentProcessorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/util/StringUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/util/DateUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/util/DateUtilShould.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/util/DateUtilLeapYearShould.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/util/DateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/discounts/PriceCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/discounts/PriceCalculatorShould.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/data/MovieRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/model/Genre.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/service/MovieService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/movies/service/MovieServiceShould.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/model/Movie.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/sql-scrips/test-data.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/movies/data/MovieRepositoryIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/data/MovieRepositoryJdbc.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1523" />
-    <option name="y" value="166" />
-    <option name="width" value="1260" />
-    <option name="height" value="737" />
+    <option name="x" value="1631" />
+    <option name="y" value="115" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -98,6 +221,49 @@
               <item name="javatesting" type="b2602c69:ProjectViewProjectNode" />
               <item name="javatesting" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javatesting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javatesting" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javatesting" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javatesting" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -105,7 +271,15 @@
               <item name="javatesting" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sql-scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javatesting" type="b2602c69:ProjectViewProjectNode" />
@@ -119,15 +293,35 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ferroblesh.javatesting.movies.data" />
+      <recent name="com.ferroblesh.javatesting.movies.service" />
+      <recent name="com.ferroblesh.javatesting.discounts" />
+      <recent name="com.ferroblesh.javatesting.util" />
+      <recent name="com.ferroblesh.javatesting.payment" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ferroblesh.javatesting.movies" />
       <recent name="com.ferroblesh.javatesting.util" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ferroblesh.javatesting.movies.data" />
+      <recent name="com.ferroblesh.javatesting.payment" />
+      <recent name="com.ferroblesh.javatesting.player" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -142,39 +336,85 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringUtilTest">
-    <configuration name="StringUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ferroblesh.javatesting.util.StringUtilTest" />
+  <component name="RunManager" selected="JUnit.MovieRepositoryIntegrationTest.insert_a_movie">
+    <configuration name="All in javatesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ferroblesh.javatesting.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieRepositoryIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ferroblesh.javatesting.util.*" />
+          <option name="PATTERN" value="com.ferroblesh.javatesting.movies.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ferroblesh.javatesting.util" />
-      <option name="MAIN_CLASS_NAME" value="com.ferroblesh.javatesting.util.StringUtilTest" />
+      <option name="PACKAGE_NAME" value="com.ferroblesh.javatesting.movies.data" />
+      <option name="MAIN_CLASS_NAME" value="com.ferroblesh.javatesting.movies.data.MovieRepositoryIntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieRepositoryIntegrationTest.insert_a_movie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ferroblesh.javatesting.movies.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ferroblesh.javatesting.movies.data" />
+      <option name="MAIN_CLASS_NAME" value="com.ferroblesh.javatesting.movies.data.MovieRepositoryIntegrationTest" />
+      <option name="METHOD_NAME" value="insert_a_movie" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieRepositoryIntegrationTest.load_all_movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ferroblesh.javatesting.movies.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ferroblesh.javatesting.movies.data" />
+      <option name="MAIN_CLASS_NAME" value="com.ferroblesh.javatesting.movies.data.MovieRepositoryIntegrationTest" />
+      <option name="METHOD_NAME" value="load_all_movies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieRepositoryIntegrationTest.load_movie_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ferroblesh.javatesting.movies.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ferroblesh.javatesting.movies.data" />
+      <option name="MAIN_CLASS_NAME" value="com.ferroblesh.javatesting.movies.data.MovieRepositoryIntegrationTest" />
+      <option name="METHOD_NAME" value="load_movie_by_id" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringUtilTest" />
-        <item itemvalue="Application.StringUtilTest" />
+        <item itemvalue="JUnit.MovieRepositoryIntegrationTest.insert_a_movie" />
+        <item itemvalue="JUnit.MovieRepositoryIntegrationTest" />
+        <item itemvalue="JUnit.MovieRepositoryIntegrationTest.load_movie_by_id" />
+        <item itemvalue="JUnit.MovieRepositoryIntegrationTest.load_all_movies" />
+        <item itemvalue="JUnit.All in javatesting" />
       </list>
     </recent_temporary>
   </component>
@@ -189,49 +429,165 @@
       <option name="presentableId" value="Default" />
       <updated>1555610532990</updated>
     </task>
+    <task id="LOCAL-00001" summary="Tests Organization">
+      <created>1556166911993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556166911994</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Passwords Tests">
+      <created>1556167814810</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556167814810</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Mockito">
+      <created>1556205942822</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556205942822</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Payment Gateway simulation">
+      <created>1556249151154</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556249151154</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Test improvements">
+      <created>1556249407134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556249407134</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Challenge 1">
+      <created>1556250088001</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1556250088001</updated>
+    </task>
+    <task id="LOCAL-00007" summary="TDD: DateUtilLeapYear">
+      <created>1556251856550</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556251856551</updated>
+    </task>
+    <task id="LOCAL-00008" summary="TDD: Discount">
+      <created>1556253070537</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556253070537</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Movie App | Search by genre">
+      <created>1556335652927</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1556335652927</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Movies App | search by length | refactor">
+      <created>1556369973119</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1556369973119</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Integration test using in memory database">
+      <created>1556375116186</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1556375116186</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringUtilTest - 2019.04.24 at 23h 17m 38s.xml">
-      <configuration name="StringUtilTest" configurationId="JUnit" />
+    <history-entry file="All_in_javatesting - 2019.04.27 at 09h 02m 54s.xml">
+      <configuration name="All in javatesting" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieRepositoryIntegrationTest - 2019.04.27 at 09h 04m 47s.xml">
+      <configuration name="MovieRepositoryIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieRepositoryIntegrationTest - 2019.04.27 at 09h 09m 12s.xml">
+      <configuration name="MovieRepositoryIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieRepositoryIntegrationTest - 2019.04.27 at 09h 18m 46s.xml">
+      <configuration name="MovieRepositoryIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieRepositoryIntegrationTest - 2019.04.27 at 09h 19m 32s.xml">
+      <configuration name="MovieRepositoryIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieRepositoryIntegrationTest - 2019.04.27 at 09h 23m 07s.xml">
+      <configuration name="MovieRepositoryIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieRepositoryIntegrationTest - 2019.04.27 at 09h 24m 34s.xml">
+      <configuration name="MovieRepositoryIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieRepositoryIntegrationTest_load_all_movies - 2019.04.27 at 09h 35m 57s.xml">
+      <configuration name="MovieRepositoryIntegrationTest.load_all_movies" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieRepositoryIntegrationTest_load_movie_by_id - 2019.04.27 at 09h 48m 23s.xml">
+      <configuration name="MovieRepositoryIntegrationTest.load_movie_by_id" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieRepositoryIntegrationTest - 2019.04.27 at 09h 50m 52s.xml">
+      <configuration name="MovieRepositoryIntegrationTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1523" y="166" width="1260" height="737" extended-state="0" />
+    <frame x="1631" y="115" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536946" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25651467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32868218" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.46396396" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.498374" weight="0.31492537" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32868218" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.503252" side_tool="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49674797" weight="0.32686567" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32958803" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tests Organization" />
+    <MESSAGE value="Passwords Tests" />
+    <MESSAGE value="Added Mockito" />
+    <MESSAGE value="Payment Gateway simulation" />
+    <MESSAGE value="Test improvements" />
+    <MESSAGE value="Challenge 1" />
+    <MESSAGE value="TDD: DateUtilLeapYear" />
+    <MESSAGE value="TDD: Discount" />
+    <MESSAGE value="Movie App | Search by genre" />
+    <MESSAGE value="Movies App | search by length | refactor" />
+    <MESSAGE value="Integration test using in memory database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integration test using in memory database" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/javatesting$All_in_javatesting.ic" NAME="All in javatesting Coverage Results" MODIFIED="1556373766918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -239,22 +595,326 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/util/StringUtilTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/util/PasswordUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="265">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/player/Dice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/util/PasswordUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/player/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/util/StringUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/payment/PaymentResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/payment/PaymentGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/payment/PaymentRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/payment/PaymentProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/payment/PaymentProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="86" selection-start-line="37" selection-start-column="86" selection-end-line="37" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/util/StringUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/util/DateUtilTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/util/DateUtilLeapYearShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/discounts/PriceCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/model/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources.properties" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/data/MovieRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/model/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/sql-scripts/test-data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/service/MovieService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/movies/service/MovieServiceShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="33" column="62" selection-start-line="27" selection-start-column="24" selection-end-line="33" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/discounts/PriceCalculatorShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ferroblesh/javatesting/movies/data/MovieRepositoryIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="61" column="33" lean-forward="true" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ferroblesh/javatesting/movies/data/MovieRepositoryJdbc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="34" column="80" lean-forward="true" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>javatesting</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
