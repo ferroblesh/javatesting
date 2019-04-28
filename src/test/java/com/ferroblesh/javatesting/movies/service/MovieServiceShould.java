@@ -83,6 +83,11 @@ public class MovieServiceShould {
         );
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void return_movies_by_negative_length() {
+        movieService.findMoviesByTemplate(new Movie(null,-119,Genre.ACTION));
+    }
+
     private List<Integer> getMovieIds(Collection<Movie> movies) {
         return movies.stream().map(Movie::getId).collect(Collectors.toList());
     }
