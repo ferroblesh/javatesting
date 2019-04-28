@@ -67,6 +67,22 @@ public class MovieServiceShould {
         assertThat(getMovieIds(movies), CoreMatchers.is(Arrays.asList(4,8)));
     }
 
+    @Test
+    public void return_movies_by_name_and_length() {
+        Movie movie = new Movie("super",119,null);
+        Collection<Movie> movies =  movieService.findMoviesByTemplate(movie);
+        assertThat(getMovieIds(movies), CoreMatchers.is(Arrays.asList(4,8)));
+    }
+
+    @Test
+    public void return_movies_by_length_and_genre() {
+        assertThat(
+                getMovieIds(movieService.findMoviesByTemplate(
+                        new Movie(null,150,Genre.ACTION))),
+                CoreMatchers.is(Arrays.asList(7,8))
+        );
+    }
+
     private List<Integer> getMovieIds(Collection<Movie> movies) {
         return movies.stream().map(Movie::getId).collect(Collectors.toList());
     }
